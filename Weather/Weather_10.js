@@ -52,9 +52,6 @@ const places = [
 let place;
 let placeIndex = 0;
 
-function preload() {
-  font = loadFont("data/CHIVOMONO-SEMIBOLD.TTF");
-}
 
 function setup() {
   //createCanvas(375, 812);
@@ -91,7 +88,6 @@ function draw() {
   updateRatio()
   background(c1)
   translate(rwidth/2, rheight/2);
-  textFont(font);
   ellipseMode(CENTER);
   rectMode(CENTER);
   angleMode(DEGREES);
