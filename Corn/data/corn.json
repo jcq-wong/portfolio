@@ -1,0 +1,942 @@
+[
+  {
+    "type": "precooked frozen meals",
+    "cornContent": ["cornstarch", "corn oil", "citric acid", "xanthan gums", "corn syrup", "maltodextrins", "dextrose"],
+    "category": ["food", "drug", "cosmetic"],
+    "examples": [],
+    "description": "Corn products are common food additives.",
+    "x": 339,
+    "y": 490,
+    "r": 55
+  },  
+  {
+    "type": "rayon",
+    "cornContent": ["corn syrup"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "To produce rayon viscose from corn, the cellulose is extracted from the corn kernels and treated with chemicals to break down the fibers into a viscous solution. This solution is then forced through tiny holes to create fibers, which are then chemically treated to set the shape and structure of the rayon.",
+    "x": 509,
+    "y": 524,
+    "r": 69
+  },
+  {
+    "type": "fiberglass",
+    "cornContent": ["cornstarch", "dextrins"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Liquid maltodextrin, a solution derived from corn that is similar to starches and glucose syrups, is used to bind glass fibers in building insulation.",
+    "x": 186,
+    "y": 141,
+    "r": 111
+  },
+  {
+    "type": "drywall",
+    "cornContent": ["cornstarch"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Corn starch is used in drywall and helps prevent unwanted molds from appearing. Drywall can also be made using ground corn cobs.",
+    "x": 248,
+    "y": 136,
+    "r": 582
+  },  
+  {
+    "type": "air freshener",
+    "cornContent": ["cornstarch", "ethanol"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Some air fresheners use corn-based ethanol as a solvent for fragrances, while others may use corn starch as a thickening agent.",
+    "x": 750,
+    "y": 169,
+    "r": 50
+  },
+  {
+    "type": "plywood",
+    "cornContent": ["dextrins", "cornstarch"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Plywood panels are bonded using an adhesive made from corn.",
+    "x": 726,
+    "y": 527,
+    "r": 107.5
+  },
+  {
+    "type": "oilcloth",
+    "cornContent": ["cornstarch"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Oilcloths are coated with corn oil and are typically used to cover tables or floors.",
+    "x": 235,
+    "y": 490,
+    "r": 180
+  },
+  {
+    "type": "abrasive paper and cloth",
+    "cornContent": ["cornstarch", "dextrins"],
+    "category": ["industrial"],
+    "examples": ["sandpaper"],
+    "description": "Corn-based materials are used as part of the adhesive or backing in some abrasive paper products.",
+    "x": 780,
+    "y": 255,
+    "r": 45
+  },
+  {
+    "type": "adhesives",
+    "cornContent": ["dextrins", "cornstarch", "corn syrup", "ethanol", "citric acid", "lactic acid", "polyol"],
+    "category": ["industrial"],
+    "examples": ["glue"],
+    "description": "Corn starch is a common material used in the production of adhesives, as it is an inexpensive and readily available natural binder. Corn-based ethanol is also used as a solvent in some types of adhesives.",
+    "x": 210,
+    "y": 500,
+    "r": 45
+  },
+  {
+    "type": "aspirin",
+    "cornContent": ["cornstarch"],
+    "category": ["food", "drug", "cosmetic"],
+    "examples": [],
+    "description": "Dextrose is often used as a filler or excipient in tablets and capsules. Corn starch is a natural binder that is used in the production of tablets, capsules, and other solid dosage forms.",
+    "x": 520,
+    "y": 650,
+    "r": 40
+  },
+  {
+    "type": "baby foods",
+    "cornContent": ["dextrose", "corn syrup", "cornstarch"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "",
+    "x": 323,
+    "y": 315,
+    "r": 20
+  },
+  {
+    "type": "bakery products",
+    "cornContent": ["dextrose", "high fructose corn syrup", "corn syrup", "cornstarch", "xanthan gums","dextrins","maltodextrins","corn oil","polyol"],
+    "category": ["food", "drug"],
+    "examples": ["breads", "rolls", "cakes", "pies", "crackers", "cookies"],
+    "description": "Corn is a common ingredient in many types of baby food, as it is a good source of nutrients like fiber and carbohydrates. Corn may be used in baby food in a variety of forms, including as whole kernels, pureed corn, or cornmeal. It may also be used as an ingredient in multi-ingredient baby foods, such as in vegetable blends or as a thickener in meat-based purees.",
+    "x": 321,
+    "y": 450,
+    "r": 60
+  },
+  {
+    "type": "baking powder",
+    "cornContent": ["cornstarch","dextrose","citric acid"],
+    "category": ["food", "drug", "cosmetic"],
+    "examples": [],
+    "description": "Corn starch is a common ingredient in many types of baking powder, as it is an effective anti-caking agent that helps to prevent the powder from clumping or sticking together.",
+    "x": 476,
+    "y": 484,
+    "r": 38
+  },
+  {
+    "type": "batteries",
+    "cornContent": ["cornstarch"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Corn starch can be used as an electrical conductor in batteries.",
+    "x": 80,
+    "y": 579,
+    "r": 50
+  },
+  {
+    "type": "berries",
+    "cornContent": ["dextrose", "cornstarch", "corn syrup", "maltodextrins", "high fructose corn syrup", "citric acid"],
+    "category": ["food", "drug"],
+    "examples": ["canned berries", "frozen berries"],
+    "description": "Corn derivatives are commonly used as sweeteners or thickeners in many types of processed foods.",
+    "x": 587,
+    "y": 479,
+    "r": 40
+  },
+  {
+    "type": "brewed beverages",
+    "cornContent": ["corn syrup", "cornstarch", "dextrose", "high fructose corn syrup"],
+    "category": ["food", "drug"],
+    "examples": ["beer", "ale"],
+    "description": "Corn derivatives may be used in some beers to provide fermentable sugars, to add flavor, or to lighten the body of the beer.",
+    "x": 746,
+    "y": 460,
+    "r": 30
+  },
+  {
+    "type": "carbonated beverages",
+    "cornContent": ["corn syrup", "dextrose","cornstarch","citric acid","polyol"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn derivatives are commonly used as sweeteners or thickeners in many types of processed foods.",
+    "x": 375,
+    "y": 400,
+    "r": 40
+  },
+  {
+    "type": "cars",
+    "cornContent": ["cornstarch", "ethanol"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Spark plugs in cars contain cornstarch, which when heated, hardens and becomes a type of ceramic that is able to withstand high temperatures and prevent corrosion. Gasoline used to fuel cars are made from ethanol.",
+    "x": 449.5,
+    "y": 307,
+    "r": 100
+  },
+  {
+    "type": "cardboard",
+    "cornContent": ["dextrins", "cornstarch", "citric acid", "lactic acid", "xanthan gums"],
+    "category": ["industrial"],
+    "examples": ["corrugating", "laminating", "solid fiberboard", "cardboard"],
+    "description": "Industrial corn starch is used during the papermaking process.",
+    "x": 680,
+    "y": 600,
+    "r": 92
+  },
+  {
+    "type": "bookbinding",
+    "cornContent": ["cornstarch", "dextrins"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Corn derivatives are commonly used as an adhesive in bookbinding, particularly for making glue or paste for paper-based materials.",
+    "x": 160,
+    "y": 523,
+    "r": 70
+  },
+  {
+    "type": "breakfast foods",
+    "cornContent": ["corn syrup", "dextrose"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn derivatives are commonly used as sweeteners or thickeners in many types of processed foods.",
+    "x": 362,
+    "y": 300,
+    "r": 40
+  },
+  {
+    "type": "briquettes",
+    "cornContent": ["cornstarch", "dextrins"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Corn derivatives are used as a binder in briquettes to help them hold their shape.",
+    "x": 459,
+    "y": 500,
+    "r": 30
+  },
+  {
+    "type": "candles",
+    "cornContent": ["corn oil", "citric acid", "lactic acid"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Corn derivatives are used in the production of candles to provide a smoother texture, to increase the hardness of the wax, or to provide a more consistent burn.",
+    "x": 440,
+    "y": 363,
+    "r": 50
+  },
+  {
+    "type": "canned fruits",
+    "cornContent": ["high fructose corn syrup", "cornstarch", "maltodextrins", "corn syrup", "dextrose", "citric acid"],
+    "category": ["food"],
+    "examples": [],
+    "description": "Corn derivatives are commonly used as sweeteners or thickeners in many types of processed foods.",
+    "x": 612,
+    "y": 496,
+    "r": 30
+  },
+  {
+    "type": "canned juices",
+    "cornContent": ["high fructose corn syrup", "xanthan gums", "citric acid", "polyol", "cornstarch", "dextrins", "maltodextrins", "corn syrup"],
+    "category": ["food"],
+    "examples": [],
+    "description": "Corn derivatives are commonly used as sweeteners or thickeners in many types of processed foods.",
+    "x": 327,
+    "y": 516,
+    "r": 30
+  },
+  {
+    "type": "caramel food color",
+    "cornContent": ["dextrose"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn derivatives are commonly used as sweeteners or thickeners in many types of processed foods.",
+    "x": 600,
+    "y": 450,
+    "r": 48
+  },
+  {
+    "type": "medicine capsule",
+    "cornContent": ["corn oil", "dextrose", "cornstarch"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Dextrose is often used as a filler or excipient in tablets and capsules. Corn starch is a natural binder that is used in the production of tablets, capsules, and other solid dosage forms.",
+    "x": 320,
+    "y": 250,
+    "r": 35
+  },
+  {
+    "type": "tomato sauce",
+    "cornContent": ["corn syrup", "xanthan gums", "cornstarch", "dextrins", "maltodextrins", "dextrose","high fructose corn syrup","corn oil","citric acid","lactic acid"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn derivatives are sometimes used as a thickener or sweetener in tomato sauce.",
+    "x": 605,
+    "y": 528,
+    "r": 28
+  },
+  {
+    "type": "ceramics",
+    "cornContent": ["dextrins", "cornstarch"],
+    "category": ["industrial"],
+    "examples": ["clay binder"],
+    "description": "Corn derivatives can be used as a binder in some ceramic glazes to help them adhere to the surface of the ceramic and to create a smoother finish.",
+    "x": 75,
+    "y": 155,
+    "r": 60
+  },
+  {
+    "type": "cereals",
+    "cornContent": ["corn syrup", "cornstarch", "dextrins", "maltodextrins", "dextrose", "high fructose corn syrup", "corn oil", "citric acid", "polyol"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn derivatives are commonly used as sweeteners or thickeners in many types of processed foods.",
+    "x": 396,
+    "y": 642,
+    "r": 40
+  },
+  {
+    "type": "cheese spreads and foods",
+    "cornContent": ["cornstarch", "dextrins", "maltodextrins", "corn syrup","high fructose corn syrup", "corn oil", "citric acid", "xanthan gums"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn derivatives are commonly used as sweeteners or thickeners in many types of processed foods.",
+    "x": 583,
+    "y": 349,
+    "r": 38
+  },
+  {
+    "type": "chewing gum",
+    "cornContent": ["corn syrup", "cornstarch", "dextrose", "polyol", "dextrins", "maltodextrins", "high fructose corn syrup", "xanthan gums"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn syrup or cornstarch, are sometimes used as a sweetener or a texturizer in chewing gum.",
+    "x": 452,
+    "y": 532,
+    "r": 45
+  },
+  {
+    "type": "chocolate drink",
+    "cornContent": ["cornstarch", "high fructose corn syrup", "maltodextrins","corn syrup","dextrose","lactic acid","polyol"],
+    "category": ["food", "drug", "cosmetic"],
+    "examples": [],
+    "description": "",
+    "x": 359,
+    "y": 523,
+    "r": 30
+  },
+  {
+    "type": "chocolate products",
+    "cornContent": ["corn syrup", "dextrose", "cornstarch", "maltodextrins", "high fructose corn syrup", "xanthan gums"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn syrup or cornstarch are used as a sweetener or a thickener in chocolate drinks.",
+    "x": 438,
+    "y": 650,
+    "r": 50
+  },
+  {
+    "type": "citrus juices",
+    "cornContent": ["dextrose", "cornstarch","dextrins","maltodextrins","corn syrup", "high fructose corn syrup", "citric acid","polyol","xanthan gums"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn-derived ingredients are used as sweeteners, stabilizers or emulsifiers in citrus juice products.",
+    "x": 338,
+    "y": 300,
+    "r": 30
+  },
+  {
+    "type": "cleaners and detergents",
+    "cornContent": ["ethanol", "citric acid", "cornstarch", "corn oil", "polyol", "xanthan gums"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Corn-based ethanol or ethyl alcohol may be used as a solvent or disinfectant in some cleaning products, and cornstarch may be used as a thickener or absorbent in some detergents.",
+    "x": 506,
+    "y": 480,
+    "r": 55
+  },
+  {
+    "type": "coffee whiteners",
+    "cornContent": ["cornstarch", "dextrins", "maltodextrins", "corn syrup", "dextrose", "high fructose corn syrup", "corn oil", "citric acid", "polyol"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn-derived ingredients can be used as fillers, thickeners, or sweeteners in certain brands of coffee creamers or whiteners.",
+    "x": 660,
+    "y": 176,
+    "r": 40
+  },
+  {
+    "type": "color carrier in textile printing",
+    "cornContent": ["cornstarch"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Corn-derived ingredients are used as surfactants or emulsifiers to help evenly distribute the dye or pigment in the fabric. corn starch may be used as a thickening agent to help evenly distribute the dye, while corn syrup may be used as a humectant to help retain moisture in the fabric.",
+    "x": 130,
+    "y": 522,
+    "r": 50
+  },
+  {
+    "type": "food coloring",
+    "cornContent": ["dextrose", "dextrins", "maltodextrins", "ethanol", "citric acid"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn-derived ingredients are used as carriers or solvents to help disperse the color evenly throughout the food product. Corn-derived citric acid may be used as a pH adjuster to help stabilize the color in the food product.",
+    "x": 360,
+    "y": 350,
+    "r": 40
+  },
+  {
+    "type": "condensed milk",
+    "cornContent": ["dextrins", "maltodextrins", "corn syrup", "dextrose", "citric acid"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Cornstarch can help improve the texture of the condensed milk and prevent it from separating.",
+    "x": 587,
+    "y": 450,
+    "r": 30
+  },
+  {
+    "type": "condiments",
+    "cornContent": ["cornstarch", "xanthan gums", "dextrins", "maltodextrins","corn syrup", "dextrose", "high fructose corn syrup", "corn oil", "citric acid","lactic acid"],
+    "category": ["food"],
+    "examples": [],
+    "description": "Corn-derived ingredients are used as a thickener to improve their texture and help the sauce adhere to food. Corn syrup or high-fructose corn syrup may be used as a sweetener in many types of condiments.",
+    "x": 720,
+    "y": 370,
+    "r": 50
+  },
+  {
+    "type": "confectionery",
+    "cornContent": ["corn syrup", "cornstarch", "dextrose", "polyol", "dextrins", "maltodextrins", "high fructose corn syrup", "xanthan gums", "corn oil"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn syrup or high fructose corn syrup may be used as a sweetener in many types of confectionery. Corn starch may be used as a thickener or binder in products such as gummies, jelly beans, and marshmallows. Corn-derived ingredients may also be used as emulsifiers or stabilizers to help keep the ingredients in the confectionery from separating or crystallizing over time.",
+    "x": 730,
+    "y": 420,
+    "r": 50
+  },
+  {
+    "type": "cooking oil",
+    "cornContent": ["corn oil", "citric acid", "lactic acid"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn oil is made from the germ of corn kernels and is extracted using a combination of mechanical and chemical processes.",
+    "x": 627,
+    "y": 465,
+    "r": 50
+  },
+  {
+    "type": "cordials and liqueurs",
+    "cornContent": ["corn syrup", "dextrose","citric acid","ethanol","high fructose corn syrup","lactic acid"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn-derived ingredients are used as sweeteners, stabilizers or emulsifiers.",
+    "x": 665,
+    "y": 542,
+    "r": 53
+  },
+  {
+    "type": "cork products",
+    "cornContent": ["cornstarch", "dextrins"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Cork products may be coated with a varnish or sealant that contains cornstarch as a binding agent.",
+    "x": 789,
+    "y": 437,
+    "r": 30
+  },
+  {
+    "type": "cosmetics",
+    "cornContent": ["cornstarch", "dextrins", "maltodextrins", "ethanol", "citric acid", "polyol", "xanthan gums"],
+    "category": ["food", "drug", "cosmetic"],
+    "examples": [],
+    "description": "Cornstarch is used as a bulking agent, absorbent, and skin conditioner in powders, creams, lotions, and other cosmetic formulations. Corn oil is used as an emollient, lubricant, and moisturizer in creams, lotions, and other skin care products. Corn syrup is used as a humectant and viscosity regulator in hair care and skin care products. Zea Mays (Corn) Extract is used as a skin conditioning agent, antioxidant, and emollient in various cosmetic formulations. Corn-derived alpha hydroxy acids are used as exfoliants and anti-aging agents in skin care products.",
+    "x": 778,
+    "y": 294,
+    "r": 40
+  },
+  {
+    "type": "crayon and chalk",
+    "cornContent": ["dextrins", "cornstarch", "corn oil"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Cornstarch is used as a binder or filler to give the crayons and chalk their shape and texture. Corn oil may also be used as a lubricant in the manufacturing process.",
+    "x": 713,
+    "y": 307,
+    "r": 48
+  },
+  {
+    "type": "dairy products",
+    "cornContent": ["cornstarch", "dextrins", "maltodextrins", "corn syrup", "dextrose", "high fructose corn syrup", "corn oil", "polyol", "xanthan gums"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn-derived ingredients are used as sweeteners, stabilizers or emulsifiers.",
+    "x": 780,
+    "y": 460,
+    "r": 45
+  },
+  {
+    "type": "desserts",
+    "cornContent": ["cornstarch", "dextrins", "maltodextrins", "corn syrup", "dextrose", "high fructose corn syrup","citric acid", "lactic acid", "polyol", "xanthan gums"],
+    "category": ["food", "drug"],
+    "examples": ["puddings", "custard"],
+    "description": "Corn-derived ingredients are used as sweeteners, stabilizers or emulsifiers.",
+    "x": 307,
+    "y": 538,
+    "r": 50
+  },
+  {
+    "type": "doughnuts",
+    "cornContent": ["dextrose","cornstarch","dextrins","maltodextrins","corn oil","high fructose corn syrup","citric acid","lactic acid","polyol", "xanthan gums"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn derivatives are commonly used as sweeteners or thickeners in many types of processed foods.",
+    "x": 730,
+    "y": 480,
+    "r": 50
+  },
+  {
+    "type": "surgical dressing",
+    "cornContent": ["cornstarch"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Cornstarch is often used as a coating or dusting powder on the surface of the dressing to help prevent sticking and provide a smooth surface. Cornstarch can also help absorb moisture and provide a cooling effect. In addition, some dressings may contain corn-derived glycerin or glycols, which are used to moisturize and soften the skin.",
+    "x": 530,
+    "y": 574,
+    "r": 22
+  },
+  {
+    "type": "drugs and pharmaceuticals",
+    "cornContent": ["dextrose", "cornstarch", "corn oil", "ethanol"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Cornstarch is commonly used as a filler and binder in tablets and capsules. Corn oil may also be used as an excipient or carrier for some drugs. Corn-derived ethanol can also be used as a solvent in the production of certain active pharmaceutical ingredients.",
+    "x": 370,
+    "y": 240,
+    "r": 40
+  },
+  {
+    "type": "printer inks",
+    "cornContent": ["dextrins", "cornstarch", "ethanol", "citric acid", "lactic acid", "xanthan gums"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Cornstarch can be used as a binder in the formulation of some inks. It helps to hold the ink pigments together and improves the ink's adhesion to the printed surface. Other corn-derived ingredients can also be used in ink formulations as a carrier or solvent for the pigments and other components.",
+    "x": 572,
+    "y": 583,
+    "r": 95
+  },
+  {
+    "type": "envelopes",
+    "cornContent": ["cornstarch", "dextrins", "corn syrup"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Corn is used to make nitrocellulose glue, which holds envelopes closed so they can be mailed.",
+    "x": 200,
+    "y": 190,
+    "r": 40
+  },
+  {
+    "type": "fireworks",
+    "cornContent": ["cornstarch", "dextrins"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Some of the compounds in fireworks require a 'binder' in order to burn properly. A common binder is dextrin, a light carbohydrate most commonly made from corn.",
+    "x": 455,
+    "y": 188,
+    "r": 110.5
+  },
+  {
+    "type": "flavoring extracts",
+    "cornContent": ["dextrose", "citric acid"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn-derived ingredients are used as sweeteners, stabilizers or emulsifiers.",
+    "x": 320,
+    "y": 400,
+    "r": 40
+  },
+  {
+    "type": "prepared flours",
+    "cornContent": ["cornstarch", "dextrins", "maltodextrins", "corn syrup", "dextrose", "high fructose corn syrup", "corn oil", "citric acid", "lactic acid", "polyol", "xanthan gums"],
+    "category": ["food", "drug", "cosmetic"],
+    "examples": ["cake mixes"],
+    "description": "Cornstarch is often added to wheat flour to create a more tender baked good. Cornmeal is also a common ingredient in many types of prepared flours, such as cornbread mix or pancake mix. Corn-based sweeteners such as high fructose corn syrup may also be present in some prepared flours as a sweetener.",
+    "x": 714,
+    "y": 231,
+    "r": 40
+  },
+  {
+    "type": "frostings and icings",
+    "cornContent": ["corn syrup", "cornstarch", "dextrins", "maltodextrins", "dextrose", "high fructose corn syrup", "corn oil", "polyol", "xanthan gums"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn syrup and high fructose corn syrup may be used as a sweetener, while cornstarch and modified cornstarch can be used as stabilizers and thickeners to improve the texture of the product.",
+    "x": 613,
+    "y": 355,
+    "r": 70
+  },
+  {
+    "type": "gravies and sauces",
+    "cornContent": ["cornstarch", "xanthan gums", "dextrins", "maltodextrins","corn syrup", "dextrose", "high fructose corn syrup", "corn oil", "citric acid","lactic acid"],
+    "category": ["food", "drug", "cosmetic"],
+    "examples": [],
+    "description": "Corn-derived ingredients are used as a thickener to improve their texture and help the sauce adhere to food. Corn syrup or high-fructose corn syrup may be used as a sweetener in many types of gravies and sauces.",
+    "x": 635,
+    "y": 489,
+    "r": 40
+  },
+  {
+    "type": "ice cream",
+    "cornContent": ["cornstarch", "dextrins", "maltodextrins", "corn syrup", "dextrose", "high fructose corn syrup", "corn oil", "polyol", "xanthan gums"],
+    "category": ["food", "drug"],
+    "examples": ["water ices", "sherbets"],
+    "description": "Corn-derived ingredients are used as sweeteners, stabilizers or emulsifiers.",
+    "x": 800,
+    "y": 700,
+    "r": 50
+  },
+  {
+    "type": "insecticides",
+    "cornContent": ["cornstarch", "corn syrup", "dextrose", "polyol"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Corn starch may be used as a carrier to help disperse the active ingredient in the insecticide. Corn-derived sugars, such as dextrose, may also be used as a food source to attract insects to the bait or trap.",
+    "x": 275,
+    "y": 155,
+    "r": 60
+  },
+  {
+    "type": "insulating material",
+    "cornContent": ["cornstarch", "dextrins"],
+    "category": ["industrial"],
+    "examples": ["glass", "wool", "rock wool", "fiberglass"],
+    "description": "Corn-derived ingredients can be used in wool processing, specifically during the scouring process, where they are used to remove impurities and natural oils from the wool fibers. The corn-derived ingredient used for this purpose is typically a surfactant or detergent, which helps to break down and remove dirt and oils from the wool.",
+    "x": 40,
+    "y": 350,
+    "r": 160
+  },
+  {
+    "type": "jams",
+    "cornContent": ["cornstarch", "dextrins", "maltodextrins", "corn syrup", "dextrose", "high fructose corn syrup","citric acid", "polyol", "xanthan gums"],
+    "category": ["food"],
+    "examples": ["jellies", "marmalades", "preserves"],
+    "description": "Corn-derived ingredients are used as sweeteners, stabilizers or emulsifiers.",
+    "x": 775,
+    "y": 400,
+    "r": 40
+  },
+  {
+    "type": "labels",
+    "cornContent": ["cornstarch", "dextrins", "dextrose"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Cornstarch is often used as a coating on labels to make them easier to print on and to protect them from moisture. Other corn-derived ingredients that may be used in labels include corn syrup or corn syrup solids, which can be used as a binder in adhesives, or as a component in label coatings.",
+    "x": 604,
+    "y": 185,
+    "r": 50
+  },
+  {
+    "type": "leather",
+    "cornContent": ["cornstarch", "dextrins", "corn syrup", "dextrose", "high fructose corn syrup", "polyol"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Corn-derived ingredients are used in the leather industry as a source of collagen, which is an important component of leather. Collagen is extracted from the hides or skins of animals and is used to make leather strong and durable. Corn can be a source of the enzymes used to break down the collagen in the hides or skins, making it easier to extract. Cornstarch may also be used in the tanning process as a filler material to help achieve a consistent color and texture in the finished leather product.",
+    "x": 55,
+    "y": 530,
+    "r": 50
+  },
+  {
+    "type": "licorice",
+    "cornContent": ["corn syrup", "cornstarch", "dextrose", "polyol", "dextrins", "maltodextrins", "high fructose corn syrup", "xanthan gums"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn derivatives are commonly used as sweeteners or thickeners in many types of processed foods.",
+    "x": 750,
+    "y": 234,
+    "r": 40
+  },
+  {
+    "type": "magazines",
+    "cornContent": ["cornstarch", "dextrins"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Glossy magazines may use a coating on the paper that contains corn-derived ingredients, such as cornstarch, to give it a smoother finish.",
+    "x": 305,
+    "y": 625,
+    "r": 65
+  },
+  {
+    "type": "malted products",
+    "cornContent": ["corn syrup"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "",
+    "x": 321,
+    "y": 182,
+    "r": 40
+  },
+  {
+    "type": "marshmallows",
+    "cornContent": ["corn syrup", "cornstarch", "dextrose", "polyol", "dextrins", "maltodextrins", "high fructose corn syrup", "xanthan gums"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn derivatives are commonly used as sweeteners or thickeners in many types of processed foods.",
+    "x": 383,
+    "y": 611,
+    "r": 40
+  },
+  {
+    "type": "matches and match box",
+    "cornContent": ["cornstarch", "dextrins"],
+    "category": ["industrial"],
+    "examples": ["match head", "match box"],
+    "description": "Corn starch is used as a binder and to provide the stick with its characteristic texture.",
+    "x": 558,
+    "y": 410,
+    "r": 30
+  },
+  {
+    "type": "mayonnaise",
+    "cornContent": ["corn oil", "cornstarch", "maltodextrins", "corn syrup", "dextrose", "high fructose corn syrup"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn-derived ingredients are used as a thickener to improve their texture. Corn syrup or high-fructose corn syrup are used as sweeteners.",
+    "x": 320,
+    "y": 345,
+    "r": 35
+  },
+  {
+    "type": "wine",
+    "cornContent": ["cornstarch","dextrose", "high fructose corn syrup", "corn syrup","citric acid","lactic acid"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Winemakers may use corn starch or corn syrup as a clarifying agent, which helps to remove impurities and sediment from the wine.",
+    "x": 680,
+    "y": 370,
+    "r": 50
+  },
+  {
+    "type": "meat products",
+    "cornContent": ["cornstarch", "dextrose", "corn syrup", "high fructose corn syrup", "xanthan gums"],
+    "category": ["food", "drug", "cosmetic"],
+    "examples": ["sausage"],
+    "description": "Corn-derived ingredients can be found in some meat products in the form of fillers, binders, and extenders. These ingredients can help improve the texture, flavor, and moisture content of meat products.",
+    "x": 665,
+    "y": 395,
+    "r": 55
+  },
+  {
+    "type": "mustard",
+    "cornContent": ["cornstarch", "corn syrup", "dextrose", "high fructose corn syrup"],
+    "category": ["food", "drug", "cosmetic"],
+    "examples": [],
+    "description": "Corn-derived ingredients may be present in mustard as a sweetener, thickener, or emulsifier. These ingredients are used to provide sweetness, to thicken the mustard, and to help keep the ingredients from separating. Cornstarch may also be used as a substitute for wheat flour in gluten-free mustards.",
+    "x": 545,
+    "y": 365,
+    "r": 45
+  },
+  {
+    "type": "paints",
+    "cornContent": ["dextrins", "cornstarch"],
+    "category": ["industrial"],
+    "examples": ["cleaning compounds", "cold water and latex paints", "poster", "laquers"],
+    "description": "",
+    "x": 800,
+    "y": 700,
+    "r": 50
+  },
+  {
+    "type": "paper products",
+    "cornContent": ["dextrins", "cornstarch", "citric acid", "lactic acid", "xanthan gums"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Corn starch is used as a binder or filler in paper products, such as paper towels, tissue paper, and cardboard. Corn oil is sometimes used in the production of paper products to help with the formation of the fibers and to increase the strength of the paper. Some paper products may have a corn-based coating on them to make them more durable and resistant to liquids. Citric acid and lactic acid may be used in the production of paper products as pH adjusters.",
+    "x": 580,
+    "y": 240,
+    "r": 100
+  },
+  {
+    "type": "peanut butter",
+    "cornContent": ["dextrins", "maltodextrins", "corn syrup", "dextrose", "high fructose corn syrup"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn-derived ingredients are often added to peanut butter as stabilizers to prevent the natural separation of oil and solids in the product.",
+    "x": 258,
+    "y": 544,
+    "r": 50
+  },
+  {
+    "type": "photographic films",
+    "cornContent": ["cornstarch", "corn syrup"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Corn starch can be used as a binding agent in the emulsion layer of the film, while corn syrup can be used as a wetting agent. Corn oil can also be used as a lubricant in the manufacturing process.",
+    "x": 200,
+    "y": 650,
+    "r": 50
+  },
+  {
+    "type": "pickle products",
+    "cornContent": ["corn syrup", "dextrose", "cornstarch", "maltodextrins", "high fructose corn syrup", "citric acid"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn syrup may be used as a sweetener in some pickle products, while cornstarch may be used as a thickener in others. Corn vinegar may also be used as a primary ingredient or as a component of the pickling brine.",
+    "x": 580,
+    "y": 380,
+    "r": 40
+  },
+  {
+    "type": "plastics",
+    "cornContent": ["cornstarch", "dextrins", "lactic acid"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Cornstarch can be used to make polylactic acid (PLA) which is a biodegradable plastic. In addition, corn-based sugars can be used to produce other types of plastics such as polyethylene terephthalate (PET), which is commonly used in water bottles and food containers. Corn-derived ingredients may also be used in plasticizers, which are added to plastics to improve their flexibility and durability.",
+    "x": 160,
+    "y": 660,
+    "r": 35
+  },
+  {
+    "type": "shoe polish",
+    "cornContent": ["corn syrup"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Corn-derived ingredients are used in shoe polish as a solvent and an emulsifier. One such ingredient is corn alcohol, which can help dissolve the wax and other ingredients in the shoe polish. Corn starch or corn flour can also be used as a thickening agent to give the polish a smooth and consistent texture. In addition, some shoe polishes may contain corn-derived oils, such as corn oil, which can help to nourish and condition leather shoes.",
+    "x": 60,
+    "y": 565,
+    "r": 30
+  },
+  {
+    "type": "potato chips",
+    "cornContent": ["corn oil","dextrins","maltodextrins","cornstarch","high fructose corn syrup","xanthan gums"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn derivatives are commonly used as sweeteners or thickeners in many types of processed foods.",
+    "x": 620,
+    "y": 635,
+    "r": 70
+  },
+  {
+    "type": "salad dressing",
+    "cornContent": ["corn oil", "corn syrup", "cornstarch", "xanthan gums", "dextrins", "maltodextrins", "dextrose", "high fructose corn syrup", "citric acid"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn-derived ingredients are used as sweeteners and as thickeners to improve their texture and help the sauce adhere to food.",
+    "x": 359,
+    "y": 163,
+    "r": 50
+  },
+  {
+    "type": "sandpaper",
+    "cornContent": ["dextrins"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Dextrin is used in making sandpaper.",
+    "x": 430,
+    "y": 587,
+    "r": 60
+  },
+  {
+    "type": "seasoning mixes",
+    "cornContent": ["cornstarch", "dextrins", "maltodextrins", "corn syrup", "dextrose", "high fructose corn syrup", "citric acid", "lactic acid", "polyol", "xanthan gums"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn derivatives are commonly used as sweeteners or thickeners in many types of processed foods.",
+    "x": 700,
+    "y": 169,
+    "r": 50
+  },
+  {
+    "type": "soaps and cleaners",
+    "cornContent": ["dextrins", "cornstarch", "citric acid"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Corn-based ethanol or ethyl alcohol may be used as a solvent or disinfectant in some cleaning products, and cornstarch may be used as a thickener or absorbent in some detergents.",
+    "x": 515,
+    "y": 360,
+    "r": 50
+  },
+  {
+    "type": "soups",
+    "cornContent": ["corn oil", "cornstarch", "dextrose", "corn syrup", "xanthan gums"],
+    "category": ["food", "drug"],
+    "examples": [],
+    "description": "Corn-derived ingredients are used as sweeteners, stabilizers or emulsifiers.",
+    "x": 288,
+    "y": 520,
+    "r": 40
+  },
+  {
+    "type": "drinking straws",
+    "cornContent": ["cornstarch", "dextrins"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Corn-derived ingredients are often used in the production of biodegradable or compostable drinking straws. These straws can be made from polylactic acid (PLA), which is a bioplastic that is derived from corn starch.",
+    "x": 268,
+    "y": 485,
+    "r": 45
+  },
+  {
+    "type": "textiles",
+    "cornContent": ["cornstarch", "corn oil", "polyol"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Cornstarch can be used as a sizing agent to give the fabric body and stiffness. Corn-based products can also be used as a source of biodegradable fibers for fabrics.",
+    "x": 63,
+    "y": 607,
+    "r": 100
+  },
+  {
+    "type": "rubber tires",
+    "cornContent": ["cornstarch"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Corn-derived ingredients are used in the production of rubber tires in the form of stearic acid, which is commonly used as a processing aid. Stearic acid can be derived from a variety of sources, including corn. It is used to improve the processability of rubber during manufacturing, as well as to improve the physical properties of the finished product.",
+    "x": 735,
+    "y": 580,
+    "r": 100
+  },
+  {
+    "type": "tobacco and tobacco products",
+    "cornContent": ["cornstarch", "dextrins", "maltodextrins", "corn syrup", "dextrose", "high fructose corn syrup", "citric acid", "lactic acid"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "Corn starch may be used as a binder or adhesive to hold together the tobacco blend or cigarette paper. Corn syrup or other corn-derived sweeteners may also be added to enhance the flavor of the tobacco. Additionally, corn-derived glycerin may be used as a humectant to help keep the tobacco moist.",
+    "x": 348,
+    "y": 540,
+    "r": 50
+  },
+  {
+    "type": "twine",
+    "cornContent": ["cornstarch", "dextrins"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "",
+    "x": 470,
+    "y": 633,
+    "r": 40
+  },
+  {
+    "type": "window shades and shade cloth",
+    "cornContent": ["dextrins"],
+    "category": ["industrial"],
+    "examples": [],
+    "description": "The corn-derived ingredient used in twine is typically cornstarch, which is used as a biodegradable coating for natural fibers like jute or sisal. The cornstarch coating helps to increase the strength and durability of the twine while also making it more resistant to moisture and other environmental factors. In addition, cornstarch-coated twine is also less likely to cause irritation or allergic reactions in people who handle it, making it a popular choice in industries like agriculture and packaging.",
+    "x": 430,
+    "y": 150,
+    "r": 160
+  },
+  {
+    "type": "toothpaste",
+    "cornContent": ["ethanol", "citric acid", "lactic acid", "polyol", "xanthan gums"],
+    "category": ["drug"],
+    "examples": [],
+    "description": "Cornstarch is often used as a thickening agent in toothpaste, helping to give it a smooth and consistent texture. Corn syrup or high fructose corn syrup may be used as a sweetener to improve the taste of the toothpaste. Corn-derived glycerin can be used as a humectant, helping to retain moisture in the toothpaste and prevent it from drying out. Other corn-derived substances such as xylitol and lactic acid may also be used in toothpaste for their antibacterial and plaque-fighting properties.",
+    "x": 120,
+    "y": 183,
+    "r": 46
+  }
+ ]

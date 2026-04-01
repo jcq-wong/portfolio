@@ -1,0 +1,25 @@
+.my-button {
+  background-color: rgba(172, 172, 172, 0);
+  border: .35px solid rgb(172, 172, 172);
+  color: rgba(49, 32, 30, .7);
+  padding: 2px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0px 0px;
+  cursor: crosshair;
+  border-radius: 0px;
+  font-family: 'Spectral', serif;
+}
+.my-button:hover {
+  background-color: rgb(49, 32, 30);
+  border: 1px solid rgb(49, 32, 30, .5);
+  color: rgb(255, 236, 106);
+  transition: background-color 0.3s ease-in-out;
+}
+.my-button.highlight {
+  background-color: rgb(134, 200, 247);
+  border: 1px solid rgb(49, 32, 30, .5);
+  color: rgb(49, 32, 30);
+}
