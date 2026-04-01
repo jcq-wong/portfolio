@@ -16,7 +16,7 @@
     .clock-card { border: 0.5px solid #e0e0e0; border-radius: 12px; overflow: hidden; background: #fff; text-decoration: none; display: block; transition: border-color 0.15s; }
     .clock-card:hover { border-color: #aaa; }
     .clock-preview { width: 100%; aspect-ratio: 1; background: #f5f5f5; overflow: hidden; position: relative; }
-    .clock-preview iframe { width: 200%; height: 200%; border: none; pointer-events: none; transform: scale(0.5); transform-origin: top left; }
+    .clock-preview iframe { position: absolute; top: 0; left: 0; width: 400px; height: 400px; border: none; pointer-events: none; transform-origin: top left; }
     .card-meta { padding: 12px 14px; border-top: 0.5px solid #e0e0e0; }
     .card-title { font-size: 13px; font-weight: 500; color: #111; }
     .card-desc { font-size: 12px; color: #888; margin-top: 3px; line-height: 1.5; }
@@ -148,5 +148,19 @@
     grid.appendChild(img);
   });
 </script>
+
+<script>
+  function scalePreviews() {
+    document.querySelectorAll('.clock-preview').forEach(card => {
+      const w = card.offsetWidth;
+      card.querySelectorAll('iframe').forEach(iframe => {
+        iframe.style.transform = `scale(${w / 400})`;
+      });
+    });
+  }
+  scalePreviews();
+  window.addEventListener('resize', scalePreviews);
+</script>
+
 </body>
 </html>
