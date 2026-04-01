@@ -53,7 +53,7 @@ let place;
 let placeIndex = 0;
 
 function preload() {
-  font = loadFont("data/CHIVOMONO-SEMIBOLD.ttf");
+  font = loadFont("data/CHIVOMONO-SEMIBOLD.TTF");
 }
 
 function setup() {
