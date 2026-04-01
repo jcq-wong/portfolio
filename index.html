@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jacqueline Wong</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: #fff; color: #111; }
+    .page { max-width: 960px; margin: 0 auto; padding: 3rem 2rem; }
+    .header { border-bottom: 0.5px solid #e0e0e0; padding-bottom: 2rem; margin-bottom: 3rem; }
+    .name { font-size: 22px; font-weight: 500; }
+    .tagline { font-size: 15px; color: #666; margin-top: 6px; line-height: 1.6; max-width: 560px; }
+    .section-label { font-size: 11px; letter-spacing: 0.08em; color: #aaa; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .clocks-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 3rem; }
+    .clock-card { border: 0.5px solid #e0e0e0; border-radius: 12px; overflow: hidden; background: #fff; text-decoration: none; display: block; transition: border-color 0.15s; }
+    .clock-card:hover { border-color: #aaa; }
+    .clock-preview { width: 100%; aspect-ratio: 1; background: #f5f5f5; overflow: hidden; position: relative; }
+    .clock-preview iframe { width: 200%; height: 200%; border: none; pointer-events: none; transform: scale(0.5); transform-origin: top left; }
+    .card-meta { padding: 12px 14px; border-top: 0.5px solid #e0e0e0; }
+    .card-title { font-size: 13px; font-weight: 500; color: #111; }
+    .card-desc { font-size: 12px; color: #888; margin-top: 3px; line-height: 1.5; }
+    .project-row { margin-bottom: 3rem; }
+    .project-card { border: 0.5px solid #e0e0e0; border-radius: 12px; overflow: hidden; background: #fff; display: flex; text-decoration: none; color: inherit; }
+    .project-card:hover { border-color: #aaa; }
+    .project-preview { flex: 0 0 280px; background: #006a47; min-height: 200px; display: flex; align-items: center; justify-content: center; }
+    .project-preview-corn { flex: 0 0 280px; background: #d7d7d7; min-height: 200px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+    .weather-visual { display: flex; align-items: center; justify-content: center; gap: 16px; padding: 2rem; }
+    .wc { border-radius: 50%; }
+    .corn-visual { padding: 1.2rem; display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+    .corn-visual img { width: 100%; aspect-ratio: 1; object-fit: contain; }
+    .project-info { flex: 1; padding: 1.5rem; border-left: 0.5px solid #e0e0e0; display: flex; flex-direction: column; justify-content: space-between; }
+    .project-title { font-size: 18px; font-weight: 500; margin-bottom: 8px; }
+    .project-desc { font-size: 13px; color: #666; line-height: 1.7; margin-bottom: 1.5rem; }
+    .project-link { font-size: 13px; color: #111; text-decoration: none; border-bottom: 0.5px solid #111; padding-bottom: 1px; align-self: flex-start; }
+    .project-link:hover { opacity: 0.5; }
+    .bio { font-size: 14px; color: #555; line-height: 1.8; max-width: 620px; margin-bottom: 2rem; }
+    .pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 2.5rem; }
+    .pill { font-size: 12px; color: #666; border: 0.5px solid #ddd; border-radius: 20px; padding: 4px 12px; }
+    .footer-note { font-size: 13px; color: #888; border-top: 0.5px solid #e0e0e0; padding-top: 1.5rem; }
+    .footer-note a { color: #111; }
+    @media (max-width: 640px) {
+      .clocks-grid { grid-template-columns: 1fr; }
+      .project-card { flex-direction: column; }
+      .project-preview, .project-preview-corn { flex: none; min-height: 160px; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header">
+    <div class="name">Jacqueline Wong</div>
+    <div class="tagline">Architectural designer and visual thinker — bridging spatial design, data, and information visualization.</div>
+  </div>
+
+  <div class="section-label">Clocks — information design, p5.js</div>
+  <div class="clocks-grid">
+    <a class="clock-card" href="01/index.html">
+      <div class="clock-preview">
+        <iframe src="01/index.html" scrolling="no" tabindex="-1"></iframe>
+      </div>
+      <div class="card-meta">
+        <div class="card-title">Grid clock</div>
+        <div class="card-desc">Hours, minutes, seconds as a blinking typographic grid.</div>
+      </div>
+    </a>
+    <a class="clock-card" href="02/index.html">
+      <div class="clock-preview">
+        <iframe src="02/index.html" scrolling="no" tabindex="-1"></iframe>
+      </div>
+      <div class="card-meta">
+        <div class="card-title">Orbital clock</div>
+        <div class="card-desc">Weighted hands on concentric axes. Seconds interpolated smoothly.</div>
+      </div>
+    </a>
+    <a class="clock-card" href="03/index.html">
+      <div class="clock-preview">
+        <iframe src="03/index.html" scrolling="no" tabindex="-1"></iframe>
+      </div>
+      <div class="card-meta">
+        <div class="card-title">Spine clock</div>
+        <div class="card-desc">A column of ticks filling and emptying with each passing minute.</div>
+      </div>
+    </a>
+  </div>
+
+  <div class="section-label">Weather — live data visualization, p5.js</div>
+  <div class="project-row">
+    <div class="project-card" style="cursor:default;">
+      <div class="project-preview">
+        <div class="weather-visual">
+          <div class="wc" style="width:90px;height:90px;background:#84A2D8;opacity:0.9;"></div>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <div class="wc" style="width:48px;height:48px;background:#FFDD34;"></div>
+            <div class="wc" style="width:32px;height:32px;background:#33385F;"></div>
+            <div class="wc" style="width:24px;height:24px;background:#A64A2C;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="project-info">
+        <div>
+          <div class="project-title">Weather</div>
+          <div class="project-desc">A live weather visualization for 29 cities around the world — from the Sahara to Svalbard. Temperature shifts the color of a large circle from blue to yellow. Wind spins a five-pointed star at proportional speed. Humidity fills an arc. Precipitation falls as particles. Click to cycle through cities.</div>
+        </div>
+        <a class="project-link" href="Weather/index.html">Open project →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label">Where's the corn? — data storytelling, p5.js</div>
+  <div class="project-row">
+    <div class="project-card" style="cursor:default;">
+      <div class="project-preview-corn">
+        <div class="corn-visual" id="cornPreview"></div>
+      </div>
+      <div class="project-info">
+        <div>
+          <div class="project-title">Where's the corn?</div>
+          <div class="project-desc">An interactive visualization exploring how corn derivatives — cornstarch, high fructose corn syrup, ethanol, and more — make their way into over 100 everyday products, from aspirin to rubber tires to drywall. Hover any product to see which derivatives it contains. Filter by derivative to see the network light up. And somewhere in the scene, there's a hidden ear of corn to find.</div>
+        </div>
+        <a class="project-link" href="Corn/index.html">Open project →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label">Background</div>
+  <div class="bio">Architecture at UC Berkeley and Harvard GSD, with time at ETH Zurich and Caruso St. John in Zürich. Currently at Modellus Novus in New York, leading hospitality and residential projects. Alongside architecture, I've explored information design and generative visualization — work informed by Ben Fry's class at MIT — that shapes how I think about systems, space, and communication at every scale.</div>
+  <div class="pills">
+    <span class="pill">Spatial design</span>
+    <span class="pill">Information visualization</span>
+    <span class="pill">p5.js</span>
+    <span class="pill">Rhinoceros 3D</span>
+    <span class="pill">Brand &amp; identity</span>
+    <span class="pill">Construction documentation</span>
+    <span class="pill">Client presentations</span>
+  </div>
+  <div class="footer-note">jacquelinewonghy@gmail.com</div>
+</div>
+
+<script>
+  const items = ['aspirin','bakery-products','batteries','candles','carbonated-beverages','cars','cereals','cosmetics','drywall','fiberglass','marshmallows','mayonnaise','paper-products','plastics','rubber-tires','toothpaste','wine','soaps-and-cleaners','shoe-polish','insecticides'];
+  const grid = document.getElementById('cornPreview');
+  items.forEach(name => {
+    const img = document.createElement('img');
+    img.src = `Corn/images/${name}.png`;
+    img.alt = name;
+    grid.appendChild(img);
+  });
+</script>
+</body>
+</html>
